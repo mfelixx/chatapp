@@ -1,0 +1,23 @@
+{
+  "connection": ["k3ldream@gmail.com", "p.ranger8213@gmail.com"],
+  "total_chats": 10,
+  "total_read": 7,
+  "total_unread": 3,
+  "chat": [
+    {
+      "pengirim": "k3ldream@gmail.com",
+      "penerima": "p.ranger8213@gmail.com",
+      "pesan": "halo",
+      "time": "2024-11-19T03:18:05.460Z",
+      "isRead": true
+    },
+    {
+      "pengirim": "p.ranger8213@gmail.com",
+      "penerima": "k3ldream@gmail.com",
+      "pesan": "iya halo",
+      "time": "2024-11-19T03:18:07.460Z",
+      "isRead": false
+    }
+  ],
+  "lastTime": "2024-11-19T03:18:07.460Z"
+}

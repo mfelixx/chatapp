@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "86511273436",
+    "project_id": "felix-chatapp",
+    "storage_bucket": "felix-chatapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86511273436:android:1e13c027affefe55103b19",
+        "android_client_info": {
+          "package_name": "com.mychatapp.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86511273436-v93bpn5c3qs7dtndasfl9spurknf7lqk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mychatapp.chatapp",
+            "certificate_hash": "ccd97335996c56601496c3e7620939ae2a972a11"
+          }
+        },
+        {
+          "client_id": "86511273436-n03i5crjfcfc54vbb2lk2dkd7dhm8e7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCct9pSlSa7WnQW3N-P48jCJ5s5p6KBWTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86511273436-n03i5crjfcfc54vbb2lk2dkd7dhm8e7g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "86511273436-9m4df9t27i9dtrt7e7t1l4gn2isp2t4b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mychatapp.chatapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

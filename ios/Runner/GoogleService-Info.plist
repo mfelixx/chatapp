@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>86511273436-9m4df9t27i9dtrt7e7t1l4gn2isp2t4b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.86511273436-9m4df9t27i9dtrt7e7t1l4gn2isp2t4b</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>86511273436-v93bpn5c3qs7dtndasfl9spurknf7lqk.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD8mqB6fTa0Cubcs1JQ_L5DHFQ1TGzB2go</string>
+	<key>GCM_SENDER_ID</key>
+	<string>86511273436</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mychatapp.chatapp</string>
+	<key>PROJECT_ID</key>
+	<string>felix-chatapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>felix-chatapp.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:86511273436:ios:b33520e02e541159103b19</string>
+</dict>
+</plist>
