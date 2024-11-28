@@ -8,11 +8,7 @@ class ChatSummary {
 
   ChatSummary({
     this.connection,
-    this.totalChats,
-    this.totalRead,
-    this.totalUnread,
     this.chat,
-    this.lastTime,
   });
 
   factory ChatSummary.fromJson(Map<String, dynamic> json) {
@@ -22,11 +18,7 @@ class ChatSummary {
 
     return ChatSummary(
       connection: List<String>.from(json['connection']),
-      totalChats: json['total_chats'],
-      totalRead: json['total_read'],
-      totalUnread: json['total_unread'],
       chat: chatItems,
-      lastTime: json['lastTime'],
     );
   }
 }

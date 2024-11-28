@@ -238,11 +238,12 @@ class AuthController extends GetxController {
       if (chatDocs.docs.isNotEmpty) {
         // terdapat chat, sudah ada koneksi
         final chatDataId = chatDocs.docs[0].id;
-        final chatsData = chatDocs.docs[0].data() as Map<String, dynamic>;
+        final chatsData = await chatDocs.docs[0].data() as Map<String, dynamic>;
         docChats.add({
           "connection": friendEmail,
           "chat_id": chatDataId,
-          "lastTime": chatsData["lastTime"]
+          "lastTime": chatsData["lastTime"],
+          "totalUnread": 0
         });
         await userCollection.doc(googleUser.email).update({"chats": docChats});
 
@@ -255,23 +256,14 @@ class AuthController extends GetxController {
       } else {
         final newChat = await chats.add({
           "connection": [googleUser.email, friendEmail],
-          "total_chats": 0,
-          "total_read": 0,
-          "total_unread": 0,
           "chat": [],
-          "lastTime": date
-        });
-
-        userCollection.doc(googleUser.email).update({
-          "chats": [
-            {"connection": friendEmail, "chat_id": newChat.id, "lastTime": date}
-          ]
         });
 
         docChats.add({
           "connection": friendEmail,
           "chat_id": newChat.id,
-          "lastTime": date
+          "lastTime": date,
+          "totalUnread": 0
         });
         await userCollection.doc(googleUser.email).update({"chats": docChats});
 

@@ -46,11 +46,13 @@ class Chat {
   String? connection;
   String? chatId;
   String? lastTime;
+  int? totalUnread;
 
   Chat({
     this.connection,
     this.chatId,
     this.lastTime,
+    this.totalUnread,
   });
 
   factory Chat.fromJson(Map<String, dynamic> json) {
@@ -58,6 +60,7 @@ class Chat {
       connection: json['connection'] ?? '',
       chatId: json['chat_id'] ?? '',
       lastTime: json['lastTime'],
+      totalUnread: json['totalUnread'],
     );
   }
 }

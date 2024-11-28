@@ -1,7 +1,7 @@
 {
   "uid": "",
   "displayName": "",
-  "keyName" : "",
+  "keyName": "",
   "email": "",
   "createdAt": "",
   "lastLogin": "",
@@ -12,12 +12,14 @@
     {
       "connection": "",
       "chat_id": "",
-      "lastTime": ""
+      "lastTime": "",
+      "totalUnread": 0
     },
     {
       "connection": "",
       "chat_id": "",
-      "lastTime": ""
+      "lastTime": "",
+      "totalUnread": 0
     }
   ]
 }
