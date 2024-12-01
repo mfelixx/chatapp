@@ -24,8 +24,8 @@ class UsersModel {
   });
 
   factory UsersModel.fromJson(Map<String, dynamic> json) {
-    var chatList = json['chats'] as List;
-    List<Chat> chatItems = chatList.map((chat) => Chat.fromJson(chat)).toList();
+    // var chatList = json['chats'] as List;
+    // List<Chat> chatItems = chatList.map((chat) => Chat.fromJson(chat)).toList();
 
     return UsersModel(
       uid: json['uid'],
@@ -37,7 +37,7 @@ class UsersModel {
       photoUrl: json['photoUrl'],
       status: json['status'],
       updateAt: json['updateAt'],
-      chats: chatItems,
+      // chats: chatItems,
     );
   }
 }
